@@ -7,7 +7,7 @@ public class TaskSix {
 
         int i = 0;
         while (iterator.hasNext()) {
-            if(i==0) {
+            if(i==1) {
                 iterator.remove();
             }
             System.out.println(iterator.next());

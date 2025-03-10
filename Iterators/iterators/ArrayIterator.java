@@ -24,8 +24,8 @@ public class ArrayIterator<T> implements Iterator<T> {
     public void remove() {
         if (!hasNext()) throw new java.util.NoSuchElementException();
 
-        array[pos] = null;
-        for(int i=pos; i<pos+1; i++) {
+        array[pos-1] = null;
+        for(int i=pos; i<array.length-1; i++) {
             array[i] = array[i+1];
         }
         pos++;

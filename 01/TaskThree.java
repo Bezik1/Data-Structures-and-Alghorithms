@@ -1,6 +1,6 @@
 public class TaskThree {
     public static void main(String[] args) {
-        int[] permutation = {2, 3, 1, };
+        int[] permutation = {2, 3, 4, 1, };
         System.out.println(nextPermutation(permutation));
 
         for(int i=0; i<permutation.length; i++) {
@@ -9,6 +9,13 @@ public class TaskThree {
     }
 
     public static boolean nextPermutation(int[] permutation) {
+        // TODO
+        // Implement finding element that is smaller than current max from the end
+        // Swap this element with the previous one
+        // Reverse elements from our element index+1 to the last element
+
+
+
         // int maxIndex = permutation.length;
         // int index = permutation.length-2;
 
